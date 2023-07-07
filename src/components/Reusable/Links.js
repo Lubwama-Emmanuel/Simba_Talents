@@ -26,6 +26,7 @@ const links = [
   },
 ];
 
+// Separator component
 export default function Links({ linksStyle, linkStyle }) {
   return (
     <ul className={linksStyle}>
