@@ -1,0 +1,30 @@
+.footer {
+  background-color: #504848;
+  padding: 30px 50px;
+}
+
+.footer_div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  color: white;
+}
+
+/* .simba_info {
+} */
+
+.logo {
+  height: 48px;
+}
+
+.links {
+  padding: 0;
+  list-style: none;
+}
+
+.copyright {
+  background-color: rgba(128, 128, 128, 0.863);
+  text-align: center;
+  padding: 3px 0;
+  border-radius: 15px;
+}
