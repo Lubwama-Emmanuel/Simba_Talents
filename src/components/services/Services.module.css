@@ -1,0 +1,11 @@
+.services {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 20px 80px;
+}
+
+.service {
+  background-color: rgb(243, 238, 229);
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
