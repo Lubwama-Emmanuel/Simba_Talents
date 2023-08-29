@@ -1,0 +1,10 @@
+.mission {
+  max-width: 83rem;
+  margin: 0 auto;
+  text-align: center;
+  /* background-color: red; */
+  padding: 10rem 17rem;
+  margin-top: -4rem;
+  font-size: 20px;
+  background-color: #f7f7f7;
+}

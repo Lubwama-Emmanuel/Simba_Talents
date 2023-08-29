@@ -1,0 +1,20 @@
+.contact_sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.reach_out {
+  background-color: orangered;
+  text-align: center;
+  width: 400px;
+  height: 400px;
+}
+
+.form {
+  border: 1px solid red;
+  text-align: center;
+  width: 400px;
+  height: 400px;
+}
