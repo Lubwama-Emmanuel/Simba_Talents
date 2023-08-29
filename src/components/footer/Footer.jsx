@@ -50,7 +50,7 @@ function Contact() {
       </p>
       <p>
         Uganda Branch<br></br>P.O. Box 118109, Kampala, Uganada, Plot<br></br>
-        291 Wabitembe-Matugga, Kampala,<br></br>UGANADA
+        291 Wabitembe-Matugga, Kampala,<br></br>UGANDA
       </p>
       <p>
         Email:

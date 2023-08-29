@@ -1,10 +1,11 @@
 .header {
-  /* width: 100%; */
+  /* background-color: red; */
+  color: #000;
   height: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 150px;
+  padding: 2.8rem 15rem;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
     rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
@@ -14,6 +15,13 @@
   list-style: none;
   justify-content: space-between;
   gap: 13px;
+  color: black;
+  text-decoration: none;
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
 }
 
 .logo {

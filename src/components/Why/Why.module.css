@@ -1,0 +1,76 @@
+.why_section {
+  margin: 0 auto;
+  margin-top: -3.5rem;
+  text-align: center;
+  background-image: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)),
+    url("../../../public/lion-simba-scaled.jpg");
+  background-size: cover;
+  padding: 5rem 5rem;
+  transform: skewY(-4deg);
+}
+
+.why_section > * {
+  transform: skewY(4deg);
+}
+
+.heading_secondary {
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+  margin-bottom: 3rem;
+  background-image: linear-gradient(
+    to right,
+    rgba(240, 218, 96, 0.904),
+    rgb(116, 99, 6)
+  );
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.row {
+  content: "";
+  display: table;
+  clear: both;
+  margin: 0 auto;
+  max-width: 70rem;
+  margin-bottom: 3rem;
+}
+
+.service_card {
+  box-sizing: border-box;
+  width: calc((100% - 150px) / 3);
+  padding: 4rem 1rem;
+  border-radius: 0.5rem;
+  background-color: rgb(255, 255, 255, 0.4);
+  /* box-shadow: 0 0.4rem 0.5rem rgb(116, 99, 6); */
+  transition: all 0.2s;
+
+  float: left;
+}
+
+.service_card:hover {
+  transform: scale(1.04);
+}
+
+.service_card:not(:last-child) {
+  margin-right: 50px;
+}
+
+.heading_tertiary {
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+:global(.icon) {
+  font-size: 3.5rem;
+  background-image: linear-gradient(
+    to right,
+    rgba(240, 218, 96, 0.904),
+    rgb(116, 99, 6)
+  );
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  color: transparent;
+}

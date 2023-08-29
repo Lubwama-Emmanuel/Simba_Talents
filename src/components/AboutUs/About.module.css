@@ -1,0 +1,36 @@
+.intial_sec {
+  display: flex;
+}
+
+.core_values {
+  background-color: #000;
+  align-items: center;
+  padding: 10rem 10rem;
+}
+
+.values {
+  display: flex;
+  justify-content: space-between;
+}
+
+.big_heading {
+  color: gold;
+}
+.value {
+  background-color: #fff;
+  width: 30%;
+}
+
+.founders {
+  text-align: center;
+  width: 114rem;
+  margin: 0 auto;
+}
+
+.mission {
+  text-align: center;
+}
+
+.elements_con {
+  display: flex;
+}

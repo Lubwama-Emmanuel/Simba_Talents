@@ -1,0 +1,21 @@
+.hero {
+  height: 95vh;
+  background-image: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)),
+    url(../../../public/lion-simba-scaled.jpg);
+  background-size: cover;
+  background-position: top;
+  clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+  position: relative;
+}
+
+.hero__hero_text {
+  color: #fff;
+  position: absolute;
+  width: 30%;
+  left: 5%;
+  top: 20%;
+}
+
+.hero__hero_text h2 {
+  text-transform: uppercase;
+}

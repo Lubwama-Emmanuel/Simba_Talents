@@ -1,0 +1,40 @@
+.choose {
+  max-width: 114rem;
+  margin: 0 auto;
+}
+
+.choose_heading {
+  text-transform: capitalize;
+}
+
+.reasons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reasons_con {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.offered {
+  max-width: 114rem;
+  margin: 0 auto;
+}
+
+.service_offered {
+  display: flex;
+  justify-content: space-between;
+}
+
+.question {
+  background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)),
+    url(../../../public/lion-simba-scaled.jpg);
+  /* max-width: 114rem; */
+  /* margin: 0 auto; */
+  background-position: center;
+  background-attachment: fixed;
+  text-align: center;
+  padding: 17rem 0;
+  color: #fff;
+}

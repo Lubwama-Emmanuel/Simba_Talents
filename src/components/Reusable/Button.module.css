@@ -1,0 +1,14 @@
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  background-color: gold;
+  padding: 0.6rem 1rem;
+  border-radius: 10rem;
+}
+/* 
+.btn:hover {
+  transform: translateX(100px);
+  background-color: red;
+} */
